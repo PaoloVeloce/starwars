@@ -1,0 +1,10 @@
+<h1> This is the template for the home page</h1>
+
+<p><%= title %></p>
+
+<ul>
+<!-- для всей длины эррэя выводим этот эррэй, определенный в индеске -->
+  <% for (var i = 0; i < movies.length; i++) { %>
+  <li><%= movies[i] %></li>
+  <%  } %>
+</ul>

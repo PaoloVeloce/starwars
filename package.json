@@ -9,6 +9,7 @@
   "author": "Paolo Veloce",
   "license": "ISC",
   "dependencies": {
+    "ejs": "^2.4.2",
     "express": "^4.14.0"
   }
 }
