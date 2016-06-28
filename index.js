@@ -7,6 +7,10 @@ app.set('view engine', 'ejs');
 // getting access to routes logic
 var routes = require('./routes');
 
+// saying to express that static files in assets
+var path = require('path');
+app.use(express.static(path.join(__dirname, 'public')));
+
 // Routes
 
 // home 

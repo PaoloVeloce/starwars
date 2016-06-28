@@ -51,6 +51,15 @@
     "description" : "Darth Vader and the Empire are building a new, indestructible Death Star. Meanwhile, Han Solo has been imprisoned, and Luke Skywalker has sent R2-D2 and C-3PO to try and free him. Princess Leia - disguised as a bounty hunter - and Chewbacca go along as well. The final battle takes place on the moon of Endor, with its natural inhabitants, the Ewoks, lending a hand to the Rebels. Will Darth Vader and the Dark Side overcome the Rebels and take over the universe?",
     "poster" : "star_wars_episode_6_poster.png",
     "hero_image" : "star_wars_episode_6_hero.jpg"
+  },
+  
+  {
+    "title" : "Star Wars: Episode VII - Force Awakens",
+    "episode_number" : "7",
+    "main_characters" : ["Luke Skywalker", "Han Solo", " General Leia Organa", "Kylo Ren", "Finn", "Chewbacca", "Maz Kanata", "Poe Dameron"],
+    "description" : "Approximately thirty years after the destruction of the second Death Star, the last remaining Jedi, Luke Skywalker, has disappeared. The First Order has risen from the fallen Galactic Empire and seeks to eliminate the New Republic. The Resistance, backed by the Republic and led by Luke's twin sister, General Leia Organa, opposes them while searching for Luke to enlist his aid.",
+    "poster" : "star_wars_episode_7_poster.png",
+    "hero_image" : "star_wars_episode_7_hero.jpg"
   }]
 
 }
