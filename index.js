@@ -4,28 +4,19 @@ var express = require('express');
 var app = express();
 
 app.set('view engine', 'ejs');
+// getting access to routes logic
+var routes = require('./routes');
 
 // Routes
 
-// Home server get request from client
-app.get('/', function(req, res) {
-	res.render('home', {
-		// that could be seen in home.js if we enruby <%= title %> here
-		title: "Star Wars Movies",
-		movies: ["The First Movie", "The Second Movie", "The Third Movie"]
-	});
-});
+// home 
+app.get('/', routes.home);
 
-// movie single
-app.get('/stawarepi/:episode_number?', function(req, res) {
-	var episode_number = req.params.episode_number;
-	res.send("This is the page for episode " + episode_number);
-});
+// movie_single
+app.get('/star_wars_episode:episode_number?', routes.movie_single);
 
 // notFound
-app.get('*', function(req, res) {
-	res.send("This is not the page you are looking for");
-})
+app.get('*', routes.notFound);
 
 // listen on specific port
 app.listen(3000, function(req, res) {
