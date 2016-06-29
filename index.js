@@ -17,7 +17,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 app.get('/', routes.home);
 
 // movie_single
-app.get('/star_wars_episode:episode_number?', routes.movie_single);
+app.get('/star_wars_episode/:episode_number?', routes.movie_single);
 
 // notFound
 app.get('*', routes.notFound);
